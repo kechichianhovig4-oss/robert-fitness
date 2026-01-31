@@ -225,49 +225,97 @@ function AboutPage() {
 </section>
 
         {/* Why Choose Us Section */}
-        <section className="bg-blue-800 text-white py-20">
-          <div className="max-w-[1200px] mx-auto px-4 md:px-6">
-            <h2 className="text-3xl font-bold mb-12 text-center">The Athlete-Led Advantage</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
-              <div className="flex gap-4">
-                <div className="p-3 bg-white/10 rounded-lg h-fit">
-                  <span className="material-symbols-outlined text-orange-500">directions_run</span>
-                </div>
-                <div>
-                  <h4 className="font-bold text-xl mb-2">Runner Optimized</h4>
-                  <p className="text-white/70">Expertise in posterior chain release and IT band management specifically for high-mileage runners.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="p-3 bg-white/10 rounded-lg h-fit">
-                  <span className="material-symbols-outlined text-orange-500">pedal_bike</span>
-                </div>
-                <div>
-                  <h4 className="font-bold text-xl mb-2">Cycling Specific</h4>
-                  <p className="text-white/70">Addressing hip flexor tightness and postural strain from long hours in the saddle.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="p-3 bg-white/10 rounded-lg h-fit">
-                  <span className="material-symbols-outlined text-orange-500">fitness_center</span>
-                </div>
-                <div>
-                  <h4 className="font-bold text-xl mb-2">Power & Strength</h4>
-                  <p className="text-white/70">Tissue mobilization for weightlifters to improve range of motion and accelerate muscle repair.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="p-3 bg-white/10 rounded-lg h-fit">
-                  <span className="material-symbols-outlined text-orange-500">timer</span>
-                </div>
-                <div>
-                  <h4 className="font-bold text-xl mb-2">Event Tapering</h4>
-                  <p className="text-white/70">Strategic flush sessions designed to prime your nervous system right before race day.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+{/* Our Team Section */}
+<section className="py-20 bg-white">
+  <div className="max-w-[1200px] mx-auto px-4 md:px-6">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl font-extrabold mb-4 text-gray-900">Meet Our Expert Team</h2>
+      <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+        Our certified fitness professionals bring specialized expertise to help you achieve your athletic goals through targeted sports massage and recovery therapy.
+      </p>
+    </div>
+    
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {/* RAMOS PATREECE */}
+      <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow">
+        <div className="h-64 overflow-hidden">
+          <img 
+            src="https://i.imgur.com/4iHBIDs.jpeg" 
+            alt="Ramos Patreece" 
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div className="p-6">
+          <h3 className="text-xl font-bold text-gray-900 mb-1">Ramos Patreece</h3>
+          <p className="text-orange-500 font-semibold text-sm mb-3">Sports Performance Specialist</p>
+          <p className="text-gray-600 text-sm">
+            Specializes in endurance athlete recovery and performance optimization. Certified in advanced myofascial release techniques.
+          </p>
+        </div>
+      </div>
+      
+      {/* CHAD BLAKELY */}
+      <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow">
+        <div className="h-64 overflow-hidden">
+          <img 
+            src="https://i.imgur.com/tIjid5A.jpeg" 
+            alt="Chad Blakely" 
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div className="p-6">
+          <h3 className="text-xl font-bold text-gray-900 mb-1">Chad Blakely</h3>
+          <p className="text-orange-500 font-semibold text-sm mb-3">Strength & Conditioning Coach</p>
+          <p className="text-gray-600 text-sm">
+            Focuses on power athletes and weightlifters. Expert in injury prevention and post-workout recovery for strength training.
+          </p>
+        </div>
+      </div>
+      
+      {/* JAMES LARRY */}
+      <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow">
+        <div className="h-64 overflow-hidden">
+          <img 
+            src="https://i.imgur.com/Fp1OItB.jpeg" 
+            alt="James Larry" 
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div className="p-6">
+          <h3 className="text-xl font-bold text-gray-900 mb-1">James Larry</h3>
+          <p className="text-orange-500 font-semibold text-sm mb-3">Rehabilitation Therapist</p>
+          <p className="text-gray-600 text-sm">
+            Specializes in post-injury recovery and mobility restoration. Combines massage therapy with functional movement assessment.
+          </p>
+        </div>
+      </div>
+      
+      {/* NATHAN MINNICK */}
+      <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow">
+        <div className="h-64 overflow-hidden">
+          <img 
+            src="https://i.imgur.com/eXiTPO3.jpeg" 
+            alt="Nathan Minnick" 
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div className="p-6">
+          <h3 className="text-xl font-bold text-gray-900 mb-1">Nathan Minnick</h3>
+          <p className="text-orange-500 font-semibold text-sm mb-3">Endurance Sports Specialist</p>
+          <p className="text-gray-600 text-sm">
+            Marathon runner and triathlon coach with expertise in event tapering and race-day recovery strategies.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div className="mt-16 text-center">
+      <p className="text-gray-600 max-w-3xl mx-auto">
+        Each team member holds advanced certifications in sports therapy and personal training, ensuring you receive evidence-based treatment from professionals who understand athletic performance from both clinical and practical perspectives.
+      </p>
+    </div>
+  </div>
+</section>
 
         {/* CTA Section */}
        <section className="py-24 px-4 md:px-6 bg-gray-50 text-center">
