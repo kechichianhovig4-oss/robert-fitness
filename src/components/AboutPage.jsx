@@ -207,11 +207,10 @@ function AboutPage() {
     <div className="w-full md:w-1/3">
       <div 
         className="aspect-[3/4] bg-center bg-cover rounded-2xl shadow-xl grayscale hover:grayscale-0 transition-all duration-500" 
-        style={{backgroundImage: `url('https://i.imgur.com/mK6w6kr.jpeg')`}}
+        style={{backgroundImage: `url('https://i.imgur.com/TUxYKfa.jpeg')`}}
       ></div>
     </div>
     <div className="w-full md:w-2/3">
-      <h3 className="text-2xl font-bold mb-6 text-blue-800">A Note From William</h3>
       <div className="space-y-4 text-lg text-gray-700 leading-relaxed italic">
         <p>"I started this practice because I was tired of receiving 'spa' massages when my body was screaming for athletic recovery. I realized there was a gap between the clinical therapist and the athlete who actually understands what a 100-mile week feels like."</p>
         <p>"My goal is to provide a space where your performance is taken as seriously as your health. Whether you are training for your first 5K or looking to shave seconds off your Ironman time, I'm here to ensure your body isn't the limiting factor."</p>
