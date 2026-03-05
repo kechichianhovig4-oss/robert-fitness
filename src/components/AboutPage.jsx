@@ -207,7 +207,7 @@ function AboutPage() {
     <div className="w-full md:w-1/3">
       <div 
         className="aspect-[3/4] bg-center bg-cover rounded-2xl shadow-xl grayscale hover:grayscale-0 transition-all duration-500" 
-        style={{backgroundImage: `url('https://i.imgur.com/TUxYKfa.jpeg')`}}
+        style={{backgroundImage: `url('https://i.imgur.com/hBI7pjO.jpeg')`}}
       ></div>
     </div>
     <div className="w-full md:w-2/3">
